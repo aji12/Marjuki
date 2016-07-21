@@ -4,6 +4,7 @@
 
 BOT PENGANTAR
 Materi EBOOK: Membuat Sendiri Bot Telegram dengan PHP
+Ebook live http://telegram.banghasan.com/
 
 oleh: bang Hasan HS
 
