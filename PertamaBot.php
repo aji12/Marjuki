@@ -201,6 +201,7 @@ function process_one()
 // tekan CTRL+C jika ingin berhenti 
 while (true) {
     process_one();
+    sleep(1);
 }
 
 // metode webhook
@@ -212,11 +213,19 @@ $pesanditerima = json_decode($entityBody, true);
 process_message($pesanditerima);
 */
 
+
+
 /*
-Jika ada pertanyaan silakan gabung ke group, atau PM.
-Just ask, not asks for ask..
+ * -----------------------
+ * Grup @botphp
+ * Jika ada pertanyaan jangan via PM
+ * langsung ke grup saja.
+ * ----------------------
+ 
+* Just ask, not asks for ask..
 
 Sekian.
+
 */
     
 ?>
